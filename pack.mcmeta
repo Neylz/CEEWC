@@ -1,5 +1,5 @@
 {
-	"name": "Elytra Capes Remover",
+	"name": "CEEWC",
 	"version": "1.0",
 	"pack": {
 		"pack_format": 32,
@@ -7,6 +7,6 @@
 			32,
 			32
 	],
-		"description": "Elytra Capes Remover\nmade by Neylz"
+		"description": "CEEWC - Custom Elytra Even With Capes - made by Neylz"
 	}
 }
