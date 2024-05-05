@@ -4,7 +4,7 @@ from PIL import Image
 img = Image.open("./scripts/src/elytra.png")
 pixels = img.convert("RGBA")
 
-# get the RGB values of each pixel located between (22,0) and (45,21) inclusive (24x22)
+# get the RGB values of each pixel located between (22,0) and (45,21) (24x22 surface)
 elytra = []
 
 for y in range(0, 22):

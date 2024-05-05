@@ -1,10 +1,6 @@
 from PIL import Image
 import os
 
-# for each texture from ./scripts/src/armors/
-# copy the texture to ./assets/minecraft/textures/models/armor/ but with the pixel (63,0) replaced with the color (255,254,253,255)
-
-
 
 for file in os.listdir("./scripts/src/armors/"):
     if file.endswith(".png"):
