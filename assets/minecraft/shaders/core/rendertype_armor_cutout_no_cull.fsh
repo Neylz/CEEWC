@@ -18,7 +18,7 @@ out vec4 fragColor;
 
 void main() {
     vec4 color;
-    if (ivec3(texelFetch(Sampler0, ivec2(63,0), 0).xyz*255).x != 255 ) {
+    if (ivec3(texelFetch(Sampler0, ivec2(63,0), 0).xyz*255) != ivec3(255, 254, 253)) {
         ivec2 texel = ivec2(texCoord0 * textureSize(Sampler0, 0));
         texel -= ivec2(21, 0);
         #moj_import <nlz/elytratex.glsl>
