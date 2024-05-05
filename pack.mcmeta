@@ -1,0 +1,12 @@
+{
+	"name": "Elytra Capes Remover",
+	"version": "1.0",
+	"pack": {
+		"pack_format": 32,
+		"supported_formats": [
+			32,
+			32
+	],
+		"description": "Elytra Capes Remover\nmade by Neylz"
+	}
+}
