@@ -22,7 +22,7 @@ void main() {
         ivec2 texel = ivec2(texCoord0 * textureSize(Sampler0, 0));
         texel -= ivec2(21, 0);
         #moj_import <nlz/elytratex.glsl>
-        color = elytra[texel.x + texel.y * 24] * vertexColor * ColorModulator;
+        color = elytra[texel.x + texel.y * 24 -1] * vertexColor * ColorModulator;
     } else color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
 
     if (color.a < 0.1) {
